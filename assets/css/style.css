@@ -1364,6 +1364,7 @@ kbd {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   overflow: hidden;
+  margin-right: 80px;
 }
 .swiper-slide .ak-entity-img {
   display: none;
