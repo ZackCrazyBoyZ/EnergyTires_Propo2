@@ -443,8 +443,8 @@ kbd {
   border-bottom-right-radius: 10px;
 }
 .car-detail.wheel {
-  height: 20px;
-  width: 20px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   top: 20px;
   left: 12px;
@@ -453,7 +453,7 @@ kbd {
   animation-name: spin;
 }
 .car-detail.wheel2 {
-  left: 82px;
+  /**left: 82px;**/
 }
 
 .preloader-content.loaded .car {
@@ -2298,7 +2298,7 @@ kbd {
   display: inline-block;
 }
 .ak-site_branding img {
-  max-height: 45px;
+  max-height: 80px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -2702,7 +2702,7 @@ kbd {
     margin-right: 0;
   }
   .ak-site_branding img {
-    max-height: 32px;
+    max-height: 67px;
   }
   .ak-site_header.ak-style1 .ak-btn span {
     display: none;
