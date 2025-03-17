@@ -2979,7 +2979,7 @@ kbd {
 .more-btn {
   position: relative;
   display: inline-block;
-  color: var(--white-color);
+  color: var(--black-color);
   font-size: 18px;
   min-width: 100px;
   text-transform: uppercase;
