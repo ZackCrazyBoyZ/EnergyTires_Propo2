@@ -57,9 +57,9 @@
 ----------------------------------------------------------------*/
 html,
 body {
-  color: var(--body-bg-color);
+  color: var(--body-color);
   font-family: var(--body-font-family);
-  background-color: var(--white-color);
+  background-color: var(--body-bg-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6em;
@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  color: var(--black-color);
+  color: var(--heading-color);
   font-family: var(--heading-font-family);
   padding: 0px;
   margin: 0px;
@@ -1009,7 +1009,7 @@ kbd {
 .ak-stroke-text {
   line-height: 1.2em;
   color: transparent;
-  -webkit-text-stroke: 1px var(--black-color);
+  -webkit-text-stroke: 1px var(--body-color);
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -1246,7 +1246,7 @@ kbd {
   margin-bottom: 10px;
   line-height: normal;
   text-transform: uppercase;
-  color: var(--black-color);
+  color: var(--white-color);
   z-index: 10;
   position: relative;
 }
@@ -2979,7 +2979,7 @@ kbd {
 .more-btn {
   position: relative;
   display: inline-block;
-  color: var(--black-color);
+  color: var(--white-color);
   font-size: 18px;
   min-width: 100px;
   text-transform: uppercase;
@@ -3292,7 +3292,6 @@ kbd {
 }
 .ak-hero.ak-style1 .hero-slider-info .hero-main-title {
   text-transform: uppercase;
-  color: white;
 }
 .ak-hero.ak-style1 .hero-slider-info .hero-main-title-1 {
   text-transform: uppercase;
@@ -3301,7 +3300,6 @@ kbd {
   max-width: 560px;
   font-size: 18px;
   line-height: 27px;
-  color: white;
 }
 
 .hero-contact-info {
