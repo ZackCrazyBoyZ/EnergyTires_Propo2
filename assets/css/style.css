@@ -3072,7 +3072,7 @@ kbd {
   display: flex;
   align-items: center;
   gap: 30px;
-  background: linear-gradient(90deg, var(--black-color) 0.34%, rgba(0, 0, 0, 0) 91.06%);
+  background: linear-gradient(90deg, var(--black-color) 0.34%, rgba(0, 0, 0, 0) 102%);
 }
 .service-card .card-img {
   overflow: hidden;
