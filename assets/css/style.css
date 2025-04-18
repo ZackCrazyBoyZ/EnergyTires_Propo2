@@ -3275,7 +3275,7 @@ kbd {
   margin: 0 auto;
 }
 .ak-hero.ak-style1 .ak-hero-bg {
-  position: absolute;
+  position: relative;
   height: calc(100% + 100px);
   width: 100%;
   left: 0;
