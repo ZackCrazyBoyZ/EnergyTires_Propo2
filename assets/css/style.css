@@ -1635,10 +1635,52 @@ kbd {
 }
 
 /* Start slider hero 1 */
+/* .ak-slider-hero-1 {
+  overflow: hidden;
+  width: 100%;
+} */
+
 .ak-slider-hero-1 {
   overflow: hidden;
   width: 100%;
+  height: 1370px; /* Valeur par défaut pour grand écran */
 }
+
+/* Très petits écrans (mobiles) */
+@media (max-width: 575.98px) {
+  .ak-slider-hero-1 {
+      height: 300px; /* 600 - 300 */
+  }
+}
+
+/* Petits écrans (mobiles larges) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .ak-slider-hero-1 {
+      height: 500px; /* 800 - 300 */
+  }
+}
+
+/* Moyens écrans (tablettes) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ak-slider-hero-1 {
+      height: 700px; /* 1000 - 300 */
+  }
+}
+
+/* Grands écrans (ordinateurs portables) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ak-slider-hero-1 {
+      height: 900px; /* 1200 - 300 */
+  }
+}
+
+/* Très grands écrans */
+@media (min-width: 1200px) {
+  .ak-slider-hero-1 {
+      height: 1370px;
+  }
+}
+
 .ak-slider-hero-1 .swiper-slide {
   width: 100%;
 }
