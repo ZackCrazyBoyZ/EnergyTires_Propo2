@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteOptions Inherit
+
+# Rediriger vers HTTPS sans www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.energytires\.com$ [NC]
+RewriteRule ^(.*)$ https://energytires.com/$1 [L,R=301]
+
