@@ -6,3 +6,6 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.energytires\.com$ [NC]
 RewriteRule ^(.*)$ https://energytires.com/$1 [L,R=301]
 
+# Rediriger la racine vers /fr/
+RewriteCond %{REQUEST_URI} ^/?$  
+RewriteRule ^$ /FR-fr/ [L,R=301]
